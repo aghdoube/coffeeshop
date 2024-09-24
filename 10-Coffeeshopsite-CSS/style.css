@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #134B70;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    color: cyan;
+    margin-right: 5%;
+
+}
+header ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+header {
+    text-align: right;
+    border-bottom: 5px solid #508C9B;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+header a:hover {
+    color: blueviolet;
+}
+
+section h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    
+    font-size: 40px;
+    color: #E7D4B5;
+    text-decoration: underline;
+}
+section h2 {
+    text-align: center;
+    color: #E7D4B5;
+    font-size: 35px;
+    padding-top: 40px;
+}
+section form {
+    text-align: center;
+}
+section div form input {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #b0a49c;
+}
+section div form textarea {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: #b0a49c;
+}
+
+section div form button {
+    border-radius: 20%;
+    color: black;
+    background-color: #b0a49c; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px ;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+section div h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #E7D4B5;
+}
+
+main {
+    margin-bottom: 50px;
+}
+main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #E7D4B5;
+}
+
+main div p {
+    text-align: justify;
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+    font-size: 25px;
+    display: block;
+    letter-spacing: 0.5px;
+    color: #E7D4B5;
+}
+main div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 10px ;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
